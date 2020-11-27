@@ -1,6 +1,6 @@
 # sdxo
 
-Provide your Sodexo login and password as `SDXO_LOGIN` and `SDXO_PASSWORD` env variables and use it to print your balance!
+Provide your Sodexo login and password as `SDXO_LOGIN` and `SDXO_PASSWORD` env variables and print your card balance!
 
 ## Installation
 
