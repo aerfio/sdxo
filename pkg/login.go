@@ -52,6 +52,7 @@ func Login(login, password string) (string, error) {
 
 	var loginResp loginResponse
 	if err := json.Unmarshal(body, &loginResp); err != nil {
+		defer fmt.Printf("Logging response body for debugging: %s\n", string(body))
 		return "", errors.Wrap(err, "while unmarshalling body to structure")
 	}
 
